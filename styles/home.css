@@ -1,0 +1,105 @@
+html{
+    margin-left: auto;
+    margin-right: auto;   
+    width: 1080px;
+    
+}
+#text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#img_apresentacao{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+    
+}
+
+#icon_apresentacao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+#box_apresentacao{
+    margin-left: auto;
+    margin-right: auto;   
+    width: 600px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px ;
+    text-align: center;
+}
+
+#box_apresentacao h2{
+
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px ;
+
+}
+
+#box_apresentacao h2{
+    margin-top: 0;
+    text-align: center;
+}
+#titulo{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.list_apresentacao_doador li{
+    padding: 0.3em;
+    border-bottom: 0.2em solid aquamarine;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.container_botao p{
+    margin-top: 2em;
+    text-align: center;
+}
+
+#link_form{
+    font-weight: bold;
+    display: block;
+    height: 1.5em;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+    border: 3px solid black;
+    background-color: aquamarine;
+    color: white;
+    padding: 0.5em;
+    border-radius: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+#link_form:hover{
+    
+color: red;
+}
+
+.imagens{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
