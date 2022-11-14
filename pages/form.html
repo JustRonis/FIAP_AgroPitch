@@ -26,9 +26,9 @@
             <label for="endereco_rua">Endereço</label>
             <input type="text" id="endereco_rua" placeholder="Digite sua rua">
             <small class="error"></small>
-            <input type="number" id="endereco_rua" placeholder="Digite o número">
+            <input type="number" id="endereco_numero" placeholder="Digite o número">
             <small class="error"></small>
-            <input type="text" id="endereco_rua" placeholder="Digite o complemento">
+            <input type="text" id="endereco_complemento" placeholder="Digite o complemento">
             <small class="error"></small>
 
             <label for="tipo_alimento">Qual categoria de alimentos deseja doar?</label>
@@ -52,7 +52,7 @@
             <small class="error"></small>
 
             <div class="center">
-                <input type="submit" value="Agendar">
+                <input type="submit" value="Agendar" onclick="redirecionar()">
                 <p id="sucess"></p>
             </div>
 
