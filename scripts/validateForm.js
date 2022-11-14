@@ -180,6 +180,6 @@ function redirecionar(){
         localStorage.setItem("hora", hora.value);
         let dados = {nome: nome.value, email: email.value}
         localStorage.setItem(dados, JSON.stringify(dados));
-        location.href="/pages/sucess.html"
+        location.href="../pages/sucess.html"
     }
 }

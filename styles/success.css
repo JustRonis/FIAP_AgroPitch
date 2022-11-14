@@ -1,0 +1,50 @@
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    border-bottom:3px solid aquamarine;
+}
+
+.agradecimento{
+    margin-top: -150px;
+}
+#icon_apresentacao{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+#box_apresentacao{
+    margin-left: auto;
+    margin-right: auto;   
+    width: 600px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px ;
+    text-align: center;
+}
+
+#box_apresentacao h2{
+
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px ;
+
+}
+
+#box_apresentacao h2{
+    margin-top: 0;
+    text-align: center;
+}   
