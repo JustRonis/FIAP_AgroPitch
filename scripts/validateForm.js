@@ -14,6 +14,7 @@ let verificador = false;
 
 
 function validarForm(){
+   
     validarNome(nome.value);
     validarEmail(email.value);
     validarCelular(celular.value);
@@ -167,6 +168,18 @@ function validarHora(inputHora){
 
 function redirecionar(){
     if(verificador  == true){
+        localStorage.setItem("nome", nome.value);
+        localStorage.setItem("email", email.value);
+        localStorage.setItem("celular", celular.value);
+        localStorage.setItem("endereco_rua", endereco_rua.value);
+        localStorage.setItem("endereco_numero", endereco_numero.value);
+        localStorage.setItem("endereco_complemento", endereco_complemento.value);
+        localStorage.setItem("tipo_alimento", tipo_alimento.value);
+        localStorage.setItem("peso", peso.value);
+        localStorage.setItem("data", data.value);
+        localStorage.setItem("hora", hora.value);
+        let dados = {nome: nome.value, email: email.value}
+        localStorage.setItem(dados, JSON.stringify(dados));
         location.href="/pages/sucess.html"
     }
 }
